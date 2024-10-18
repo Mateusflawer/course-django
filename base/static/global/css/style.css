@@ -27,5 +27,13 @@ body {
 .posts {
     background-color: #fff;
     padding: 1.5rem;
-    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);
+    box-shadow: 5px 2px 1rem rgb(0, 0, 0, 30%);
+    border-radius: 1rem;
+    border: 1px solid rgb(0, 0, 0, 10%);
+}
+
+@media (min-width: 600px) {
+    .content {
+        grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    }
 }
